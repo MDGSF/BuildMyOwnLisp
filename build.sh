@@ -1,6 +1,3 @@
-rm hello_world
-rm prompt
-rm doge_grammer
 cc -std=c99 -Wall hello_world.c -o hello_world
 cc -std=c99 -Wall prompt.c -ledit -o prompt
 cc -std=c99 -Wall doge_grammer.c mpc.c -ledit -lm -o doge_grammer
